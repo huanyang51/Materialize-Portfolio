@@ -1,6 +1,6 @@
 # Materialize-Portfolio
 
-Portfolio Page using [Materialize parallax template](https://materializecss.com/templates/parallax-template/preview.html) with personal modifications. _Modal_ is used for the contact section.
+Portfolio Page using [Materialize parallax template](https://materializecss.com/templates/parallax-template/preview.html) with personal modifications. **Modal** is used for the contact section.
 
 ### Links
 
@@ -13,7 +13,7 @@ My projects and links to github repos are also listed in the portfolio section.
 
 ### Contact
 
-When _Contact Me_ button is pressed, a modal will be triggered and will take text inputs. The submit button will close the modal.
+When **Contact Me** button is pressed, a modal will be triggered and will take text inputs. **The submit** button will close the modal.
 
 <img src="https://github.com/huanyang51/Materialize-Portfolio/blob/master/repo-assets/screenshot3.png" />
 
