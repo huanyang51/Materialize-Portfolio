@@ -8,6 +8,13 @@
 i.material-icons.prefix {
   color: teal;
 }
+#textarea {
+  border-bottom: none;
+  line-height: 32px;
+}
+#textarea:focus {
+  border-bottom: none !important;
+}
 
 nav ul a,
 nav .brand-logo {
