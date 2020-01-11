@@ -33,11 +33,46 @@
           >Huan Yang</a
         >
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Contact Me</a></li>
+          <li><a class="btn modal-trigger" href="#modal1">Contact Me</a></li>
         </ul>
-
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate" />
+                    <label for="icon_prefix">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate" />
+                    <label for="icon_telephone">Telephone</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea
+                      id="icon_prefix2"
+                      class="materialize-textarea"
+                    ></textarea>
+                    <label for="icon_prefix2">Message</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+              >Submit</a
+            >
+          </div>
+        </div>
         <ul id="nav-mobile" class="sidenav">
-          <li><a href="#">Contact Me</a></li>
+          <li>
+            <a class="btn modal-trigger" href="#modal1">Contact Me</a>
+          </li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"
           ><i class="material-icons">menu</i></a
@@ -159,11 +194,14 @@
       <div class="section">
         <div class="row">
           <div class="col l6 s12">
-            <h5>Paper</h5>
+            <h5>Publication</h5>
             <ul>
               <li>
-                An Engineered <i>orco</i> Mutation Produces Aberrant Social
-                Behavior and Defective Neural Development in Ants
+                Yan, H., Opachaloemphan, C., Mancini, G., Yang, H., Gallitto,
+                M., Mlejnek, J., Haight, K., Ghaninia, M., Huo, L., Leibholz,
+                A., et al. (2017). An Engineered <i>orco</i> Mutation Produces
+                Aberrant Social Behavior and Defective Neural Development in
+                Ants. Cell volume 170, issue 4, 736–747
               </li>
             </ul>
           </div>
@@ -187,6 +225,12 @@
           Made by
           <a class="brown-text text-lighten-3" href="http://materializecss.com"
             >Materialize</a
+          >
+          Modified by
+          <a
+            class="brown-text text-lighten-3"
+            href="https://github.com/huanyang51"
+            >Huan Yang</a
           >
         </div>
       </div>
